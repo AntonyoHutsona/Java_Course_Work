@@ -18,7 +18,6 @@ public class Song {
 
    	}
 
-
 	/**
 	 * The toString method
      * @return A String object containing the name of the song and the artist.
