@@ -19,6 +19,7 @@ public class CompactDisc
        String title, artist;
 	   final int ARRAY_LENGTH = 6;
 
+
        /* TODO: ADD LINES FOR TASK #3 HERE
         * Declare an array of Song objects, called cd,
         * with a size of 6
