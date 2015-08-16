@@ -6,7 +6,6 @@ import java.util.ArrayList;
    specific types of bank accounts should inherit from
    this class.
 */
-
 public abstract class BankAccount {
 
    // Class variable so that each account

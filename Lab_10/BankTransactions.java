@@ -12,7 +12,6 @@ import java.nio.channels.FileChannel;
  * Class        CIS163AA
  * Assignment:	Chapter 10
 */
-
 public class BankTransactions {
 
    static DecimalFormat currency = new DecimalFormat("$#,##0.00");
