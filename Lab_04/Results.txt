@@ -1,0 +1,3 @@
+The Mean & the Standard Deviation are as follows:
+Mean = 77.444
+Standard Deviation = 10.021
