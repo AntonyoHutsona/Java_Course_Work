@@ -1,16 +1,16 @@
 /*
    This class stores data about a song.
 */
-
 public class Song {
 
    	private String title;   				// The song's title
    	private String artist; 					 // The song's artist
 
+
 	/**
 	 * Constructor to set title and artist
-	 * @param title
-	 * @param artist
+	 * @param title the title of the song
+	 * @param artist the artiest of the song
 	 */
    	public Song(String title, String artist) {
 	   	this.title = title;
@@ -18,7 +18,8 @@ public class Song {
 
    	}
 
-   	/**
+
+	/**
 	 * The toString method
      * @return A String object containing the name of the song and the artist.
      */
