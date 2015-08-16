@@ -1,6 +1,7 @@
 /*
    This class stores data about a song.
 */
+
 public class Song {
 
    	private String title;   				// The song's title
