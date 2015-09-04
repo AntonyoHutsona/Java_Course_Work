@@ -4,10 +4,10 @@
  */
 public class Address {
 
-	private String street;					// The street number and name
-	private String city;					// The city in which the address is located
-	private String state;					// The state in which the address is located
-	private String zip;						// The zip code associated with the city and street
+	private String street;						// The street number and name
+	private String city;						// The city
+	private String state;						// The state
+	private String zip;							// The zip code
 
 	/**
 	 Constructor

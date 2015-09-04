@@ -4,9 +4,9 @@
 
 public class Person {
 
-	private String lastName;				// The person's last name
-	private String firstName;				// The person's first name
-	private Address home;					// The person's address
+	private String lastName;						// The person's last name
+	private String firstName;						// The person's first name
+	private Address home;							// The person's address
 
 	/**
 	 Constructor

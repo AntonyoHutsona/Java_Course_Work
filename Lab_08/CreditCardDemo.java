@@ -3,7 +3,7 @@
  *
  * @author ahutsona
  * Student-ID:	36225268
- * Class        CIS163AA
+ * Class        CIS263AA
  * Assignment:	Chapter_08_Assignment
  *
  */
@@ -21,7 +21,8 @@ public class CreditCardDemo {
 		final Money THIRD_AMOUNT = new Money(25);
 		final Money FOURTH_AMOUNT = new Money(990);
 
-		Address address = new Address("237J Harvey Hall", "Menomonie", "WI", "54751");
+		Address address = new Address("237J Harvey Hall", "Menomonie", "WI",
+                                      "54751");
 
 		// Create an instance of the Person class.
 		Person owner = new Person("Christie", "Diane", address);
