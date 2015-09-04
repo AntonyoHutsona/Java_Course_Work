@@ -1,7 +1,7 @@
 /**
  * CreditCard class that stores data about the Credit Card
  */
-class CreditCard {
+public class CreditCard {
 
     private final Person owner;
     private final Money balance;
@@ -18,7 +18,6 @@ class CreditCard {
         this.creditLimit = limit;
         this.balance = new Money(0);
     }
-
 
     /**
      * Gets the balance
@@ -82,7 +81,5 @@ class CreditCard {
         this.balance.subtract(amount);
         this.creditLimit = creditLimit.add(amount);
         System.out.println("Payment: " + amount);
-
     }
-
 }

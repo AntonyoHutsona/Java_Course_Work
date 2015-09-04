@@ -1,7 +1,8 @@
 /**
  * This program demonstrates the Money class.
  */
-class MoneyDemo {
+public class MoneyDemo {
+
     public static void main(String[] args) {
         // Named constants
         final int BEGINNING = 500; // Beginning balance
