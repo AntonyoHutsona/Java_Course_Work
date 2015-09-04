@@ -4,7 +4,7 @@
  * @author ahutsona Student-ID:	36225268 Class        CIS263AA
  *         Assignment:	Chapter_08_Assignment
  */
-public class CreditCardDemo {
+class CreditCardDemo {
 
     /**
      * Main method of the CreditCardDemo program

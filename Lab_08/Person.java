@@ -6,11 +6,10 @@ public class Person {
 
     private String lastName;
     private String firstName;
-    private Address home;
+    private final Address home;
 
     /**
      * Constructor
-     *
      * @param last The person's last name.
      * @param first The person's first name.
      * @param residence The person's address.
@@ -23,8 +22,7 @@ public class Person {
 
     /**
      * Copy constructor
-     *
-     * @param personTwo
+     * @param personTwo The Person object
      */
     public Person(Person personTwo) {
         lastName = personTwo.lastName;
@@ -34,8 +32,7 @@ public class Person {
 
     /**
      * Set lastName
-     *
-     * @param lastName
+     * @param lastName The persons last name
      */
     public void setLastName(String lastName) {
         this.lastName = lastName;
@@ -43,8 +40,7 @@ public class Person {
 
     /**
      * Set firstName
-     *
-     * @param firstName
+     * @param firstName The persons first name
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
@@ -52,16 +48,14 @@ public class Person {
 
     /**
      * Copy constructor
-     *
-     * @return home
+     * @return home The Address of Person
      */
-    public Address getHome() {
+    private Address getHome() {
         return new Address(this.home);
     }
 
     /**
      * The toString method
-     *
      * @return Information about the person.
      */
     public String toString() {

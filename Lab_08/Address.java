@@ -25,11 +25,10 @@ public class Address {
 
     /**
      * Set params
-     *
-     * @param streetNumber
-     * @param city
-     * @param state
-     * @param zip
+     * @param streetNumber The street number of the address
+     * @param city The city of the address
+     * @param state The state of the address
+     * @param zip The zip of the address
      */
     public void set(String streetNumber, String city, String state,
                     String zip) {
@@ -41,8 +40,7 @@ public class Address {
 
     /**
      * Copy constructor
-     *
-     * @param object2
+     * @param object2 The Address object
      */
     public Address(Address object2) {
         streetNumber = object2.streetNumber;

@@ -1,7 +1,7 @@
 /**
    This program demonstrates the Money class.
 */
-public class MoneyDemo
+class MoneyDemo
 {
    public static void main(String[] args)
    {

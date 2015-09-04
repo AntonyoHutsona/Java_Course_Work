@@ -24,8 +24,7 @@ public class Money {
 
     /**
      * Copy Constructor
-     *
-     * @param object2
+     * @param object2 The Money object
      */
     public Money(Money object2) {
         dollars = object2.dollars;
@@ -100,9 +99,7 @@ public class Money {
      * equals method test for equality between the dollars and the cents of the
      * calling object are less than the dollars and the cents of the parameter
      * object
-     *
-     * @param amount
-     *
+     * @param amount The Money object
      * @return boolean true/false
      */
     public boolean equals(Money amount) {
@@ -117,8 +114,7 @@ public class Money {
      */
     @Override
     public String toString() {
-        String str = String.format("$%d.%02d", dollars, cents);
-        return str;
+        return String.format("$%d.%02d", dollars, cents);
     }
 
 }

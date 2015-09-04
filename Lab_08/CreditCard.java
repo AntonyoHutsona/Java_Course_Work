@@ -1,16 +1,16 @@
 /**
  * CreditCard class that stores data about the Credit Card
  */
-public class CreditCard {
+class CreditCard {
 
     private Person owner;
-    private Money balance;
+    private final Money balance;
     private Money creditLimit;
 
     /**
      * Constructor
-     * @param newCardHolder
-     * @param limit
+     * @param newCardHolder The Person object
+     * @param limit The Money object
      */
     public CreditCard(Person newCardHolder, Money limit) {
         this.owner = newCardHolder;
@@ -20,28 +20,30 @@ public class CreditCard {
 
     /**
      * Copy constructor
-     * @param object2
+     * @param object2 The CreditCard object
      */
     public CreditCard(CreditCard object2) {
+        this.owner = object2.owner;
         this.balance = object2.balance;
         this.creditLimit = object2.creditLimit;
     }
 
+
     /**
      * Gets the balance
-     * @return balance
+     * @return balance The new calculated balance
      */
     public Money getBalance() {return new Money(balance);}
 
     /**
      * Gets the credit limit
-     * @return creditLimit
+     * @return creditLimit The new credit limit
      */
     public Money getCreditLimit() {return new Money(creditLimit);}
 
     /**
      * Gets information amount the Credit card owner
-     * @return owner
+     * @return owner The owner of the credit card
      */
     public Person getPersonals() {return new Person(owner);}
 
@@ -49,12 +51,12 @@ public class CreditCard {
      * Compares the balance and the credit card limit
      * @return int value -1, 1, 0
      */
-    public int toCompare() {return balance.compareTo(creditLimit);}
+    private int toCompare() {return balance.compareTo(creditLimit);}
 
     /**
      * Method to add amounts to the balance and subtract from credit limit
      * when a charge is made.
-     * @param amount
+     * @param amount The amount of a charge
      */
     public void charge(Money amount) {
         this.balance.add(amount);
@@ -70,7 +72,7 @@ public class CreditCard {
 
     /**
      * Method to add to the credit limit and subtract from the balance
-     * @param amount
+     * @param amount The amount paid
      */
     public void payment(Money amount)    {
         this.balance.subtract(amount);
