@@ -4,8 +4,8 @@
 
 public class Person {
 
-    private String lastName;
-    private String firstName;
+    private final String lastName;
+    private final String firstName;
     private final Address home;
 
     /**
@@ -28,22 +28,6 @@ public class Person {
         lastName = personTwo.lastName;
         firstName = personTwo.firstName;
         home = personTwo.home;
-    }
-
-    /**
-     * Set lastName
-     * @param lastName The persons last name
-     */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    /**
-     * Set firstName
-     * @param firstName The persons first name
-     */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 
     /**

@@ -24,6 +24,7 @@ public class Money {
 
     /**
      * Copy Constructor
+     *
      * @param object2 The Money object
      */
     public Money(Money object2) {
@@ -99,7 +100,9 @@ public class Money {
      * equals method test for equality between the dollars and the cents of the
      * calling object are less than the dollars and the cents of the parameter
      * object
+     *
      * @param amount The Money object
+     *
      * @return boolean true/false
      */
     public boolean equals(Money amount) {

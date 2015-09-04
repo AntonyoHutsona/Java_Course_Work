@@ -3,10 +3,10 @@
  */
 public class Address {
 
-    private String streetNumber;
-    private String city;
-    private String state;
-    private String zip;
+    private final String streetNumber;
+    private final String city;
+    private final String state;
+    private final String zip;
 
     /**
      * Constructor
@@ -21,21 +21,6 @@ public class Address {
         city = town;
         state = st;
         zip = zipCode;
-    }
-
-    /**
-     * Set params
-     * @param streetNumber The street number of the address
-     * @param city The city of the address
-     * @param state The state of the address
-     * @param zip The zip of the address
-     */
-    public void set(String streetNumber, String city, String state,
-                    String zip) {
-        this.streetNumber = streetNumber;
-        this.city = city;
-        this.state = state;
-        this.zip = zip;
     }
 
     /**
